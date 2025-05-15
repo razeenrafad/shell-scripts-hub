@@ -1,0 +1,135 @@
+Last login: Wed May 14 18:37:17 on ttys000 
+/Users/rafad/.zshenv:1: no such file or directory: /usr/libexc/java_home 
+rafad@RAFADs-MacBook-Air ~ % bash 
+ 
+The default interactive shell is now zsh. 
+To update your account to use zsh, please run `chsh -s /bin/zsh`. 
+For more details, please visit https://support.apple.com/kb/HT208050. 
+bash-3.2$ ssh -i~/Downloads/razeen.pem ec2-user@18.212.85.105 
+Warning: Identity file /Users/rafad/Downloads/razeen.pem not accessible: No such file or directory. 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY! 
+Someone could be eavesdropping on you right now (man-in-the-middle attack)! 
+It is also possible that a host key has just been changed. 
+The fingerprint for the ED25519 key sent by the remote host is 
+SHA256:Kxv5fPSjcoUohnNrbrHLuRMeO+hyA9KDqDWwpV0nqcg. 
+Please contact your system administrator. 
+Add correct host key in /Users/rafad/.ssh/known_hosts to get rid of this message. 
+Offending ECDSA key in /Users/rafad/.ssh/known_hosts:33 
+Host key for 18.212.85.105 has changed and you have requested strict checking. 
+Host key verification failed. 
+bash-3.2$ ssh -i~/Downloads/razeen.pem ec2-user@18.212.85.105 
+Warning: Identity file /Users/rafad/Downloads/razeen.pem not accessible: No such file or directory. 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY! 
+Someone could be eavesdropping on you right now (man-in-the-middle attack)! 
+It is also possible that a host key has just been changed. 
+The fingerprint for the ED25519 key sent by the remote host is 
+SHA256:Kxv5fPSjcoUohnNrbrHLuRMeO+hyA9KDqDWwpV0nqcg. 
+Please contact your system administrator. 
+Add correct host key in /Users/rafad/.ssh/known_hosts to get rid of this message. 
+Offending ECDSA key in /Users/rafad/.ssh/known_hosts:33 
+Host key for 18.212.85.105 has changed and you have requested strict checking. 
+Host key verification failed. 
+bash-3.2$ ssh -i~/Downloads/razeen.pem ec2-user@18.212.85.105 
+Warning: Identity file /Users/rafad/Downloads/razeen.pem not accessible: No such file or directory. 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY! 
+Someone could be eavesdropping on you right now (man-in-the-middle attack)! 
+It is also possible that a host key has just been changed. 
+The fingerprint for the ED25519 key sent by the remote host is 
+SHA256:Kxv5fPSjcoUohnNrbrHLuRMeO+hyA9KDqDWwpV0nqcg. 
+Please contact your system administrator. 
+Add correct host key in /Users/rafad/.ssh/known_hosts to get rid of this message. 
+Offending ECDSA key in /Users/rafad/.ssh/known_hosts:33 
+Host key for 18.212.85.105 has changed and you have requested strict checking. 
+Host key verification failed. 
+bash-3.2$ ssh -i~/Downloads/razeen.pem ec2-user@18.212.85.105 
+Warning: Identity file /Users/rafad/Downloads/razeen.pem not accessible: No such file or directory. 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY! 
+Someone could be eavesdropping on you right now (man-in-the-middle attack)! 
+It is also possible that a host key has just been changed. 
+The fingerprint for the ED25519 key sent by the remote host is 
+SHA256:Kxv5fPSjcoUohnNrbrHLuRMeO+hyA9KDqDWwpV0nqcg. 
+Please contact your system administrator. 
+Add correct host key in /Users/rafad/.ssh/known_hosts to get rid of this message. 
+Offending ECDSA key in /Users/rafad/.ssh/known_hosts:33 
+Host key for 18.212.85.105 has changed and you have requested strict checking. 
+Host key verification failed. 
+bash-3.2$ ssh-keygen -R 18.212.85.105 
+# Host 18.212.85.105 found: line 32 
+# Host 18.212.85.105 found: line 33 
+/Users/rafad/.ssh/known_hosts updated. 
+Original contents retained as /Users/rafad/.ssh/known_hosts.old 
+bash-3.2$ ssh ec2-user@18.212.85.105 
+The authenticity of host '18.212.85.105 (18.212.85.105)' can't be established. 
+ED25519 key fingerprint is SHA256:Kxv5fPSjcoUohnNrbrHLuRMeO+hyA9KDqDWwpV0nqcg. 
+This key is not known by any other names 
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes 
+Warning: Permanently added '18.212.85.105' (ED25519) to the list of known hosts. 
+ec2-user@18.212.85.105: Permission denied (publickey). 
+bash-3.2$ ssh -i~/Downloads/razeen.pem ec2-user@18.212.85.105 
+Warning: Identity file /Users/rafad/Downloads/razeen.pem not accessible: No such file or directory. 
+ec2-user@18.212.85.105: Permission denied (publickey). 
+bash-3.2$ ssh -i~/Downloads/razeen.pem ec2-user@18.212.85.105 
+Warning: Identity file /Users/rafad/Downloads/razeen.pem not accessible: No such file or directory. 
+ec2-user@18.212.85.105: Permission denied (publickey). 
+bash-3.2$ ssh -i~/Downloads/Thurs.pem ec2-user@35.170.245.163 
+   ,     #_ 
+   ~\_  ####_        Amazon Linux 2023 
+  ~~  \_#####\ 
+  ~~     \###| 
+  ~~       \#/ ___   https://aws.amazon.com/linux/amazon-linux-2023 
+   ~~       V~' '-> 
+    ~~~         / 
+      ~~._.   _/ 
+         _/ _/ 
+       _/m/' 
+Last login: Thu May 15 05:17:57 2025 from 49.37.232.173 
+[ec2-user@ip-172-31-84-85 ~]$ ls 
+[ec2-user@ip-172-31-84-85 ~]$ ls 
+[ec2-user@ip-172-31-84-85 ~]$ cd 
+[ec2-user@ip-172-31-84-85 ~]$ ls 
+[ec2-user@ip-172-31-84-85 ~]$ clone git https://github.com/iam-veeramalla/shell-scripting-projects.git 
+-bash: clone: command not found 
+[ec2-user@ip-172-31-84-85 ~]$ git clone https://github.com/iam-veeramalla/shell-scripting-projects.git 
+Cloning into 'shell-scripting-projects'... 
+remote: Enumerating objects: 41, done. 
+remote: Counting objects: 100% (15/15), done. 
+remote: Compressing objects: 100% (9/9), done. 
+remote: Total 41 (delta 10), reused 6 (delta 6), pack-reused 26 (from 1) 
+Receiving objects: 100% (41/41), 8.84 KiB | 2.95 MiB/s, done. 
+Resolving deltas: 100% (14/14), done. 
+[ec2-user@ip-172-31-84-85 ~]$ ls 
+shell-scripting-projects 
+[ec2-user@ip-172-31-84-85 ~]$ cd shell-scripting-projects 
+[ec2-user@ip-172-31-84-85 shell-scripting-projects]$ ls 
+README.md  aws-event-triggering  github-api 
+[ec2-user@ip-172-31-84-85 shell-scripting-projects]$ cd github-api 
+[ec2-user@ip-172-31-84-85 github-api]$ ls 
+list-users.sh 
+[ec2-user@ip-172-31-84-85 github-api]$ export usrname="razeenrafad" 
+[ec2-user@ip-172-31-84-85 github-api]$ export token="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" 
+[ec2-user@ip-172-31-84-85 github-api]$ ls 
+list-users.sh 
+[ec2-user@ip-172-31-84-85 github-api]$ ./lis-usrs.sh Ghurabaa-kl13 test 
+-bash: ./lis-usrs.sh: No such file or directory 
+[ec2-user@ip-172-31-84-85 github-api]$ ./list-users.sh Ghurabaa-kl13 test 
+-bash: ./list-users.sh: Permission denied 
+[ec2-user@ip-172-31-84-85 github-api]$ chmod 777 list-users.sh 
+[ec2-user@ip-172-31-84-85 github-api]$ ./list-users.sh Ghurabaa-kl13 test 
+Listing users with read access to Ghurabaa-kl13/test... 
+Users with read access to Ghurabaa-kl13/test: 
+shanidmuhammed 
+razeenrafad 
+[ec2-user@ip-172-31-84-85 github-api]$ client_loop: send disconnect: Broken pipe 
+bash-3.2$  
